@@ -18,3 +18,12 @@ export const menuDataThree =[
     {title: "Join Community", link: "/Join Community"},
     {title: "Send Feedback", link: "/Send Feedback"},
 ]
+
+export const pricingNavs= [
+    {title:"CRM & Sales", link:""},
+    {title:"Human Resources", link:""},
+    {title:"Marketing", link:""},
+    {title:"Remote Work", link:""},
+    {title:"Project Management", link:""},
+    {title:"Social Media", link:""}
+]

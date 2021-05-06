@@ -1,12 +1,14 @@
 import React from 'react'
+import Teams from '../components/BondedTeams/Teams';
 import Footer from '../components/Footer/Footer';
-import Help from '../components/HelpSection/Help'
+import PricingTop from '../components/PricingTopSection/PricingTop';
 
 const pricing = () => {
     return (
         <div>
+            <PricingTop/>
+            <Teams/>
             <Footer/>
-            <Help />
         </div>
     )
 }
