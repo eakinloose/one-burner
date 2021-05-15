@@ -19,7 +19,7 @@ export const menuDataThree =[
     {title: "Send Feedback", link: "/Send Feedback"},
 ]
 
-export const pricingNavs= [
+export const pricingNavs =[
     {title:"CRM & Sales", link:""},
     {title:"Human Resources", link:""},
     {title:"Marketing", link:""},

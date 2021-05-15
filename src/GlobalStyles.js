@@ -24,6 +24,10 @@ const GlobalStyles = createGlobalStyle`
         border-bottom: 3px dashed #462686;
         padding-bottom:10px;
     }
+    /* #price-nav p{
+        display: inline;
+        color: red;
+    } */
 `
 
 export default GlobalStyles;

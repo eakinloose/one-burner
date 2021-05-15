@@ -95,6 +95,7 @@ export const footerListStyle = css`
     margin: 15px;
     font-size: 12px;
     color: #4545459f;
+    cursor: pointer;
 `
 export const FooterList = styled.div`
     ${footerListStyle}
