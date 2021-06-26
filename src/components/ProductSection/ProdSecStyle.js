@@ -2,6 +2,7 @@ import styled from 'styled-components'
 export const ProdSectionWrapper = styled.div`
     z-index: 30;
     background: white;
+    width:100%;
     padding-bottom: 3rem;
     padding-top: 2.8rem;
     animation: fade-in 0.3s ease-in;

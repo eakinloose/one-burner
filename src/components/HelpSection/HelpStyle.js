@@ -74,7 +74,7 @@ export const Award = styled.div`
     margin: auto;
     transform: translateY(-50%);
     background: white;
-    box-shadow: 0.2px 2px 2px black;
+    box-shadow: 0.2px 0.5px 5px grey;
     border-radius: 10px;
     padding: 0rem 3rem;
 
