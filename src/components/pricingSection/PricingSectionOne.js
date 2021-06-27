@@ -101,7 +101,7 @@ const PricingSectionOne = () => {
       <LastSection>
         <h2>Choose a better way to work</h2>
         <p>No credit card details | No additional installation | No time wasting</p>
-        <button>sStart my free trail</button>
+        <button>Start my free trail</button>
       </LastSection>
     </>
   )

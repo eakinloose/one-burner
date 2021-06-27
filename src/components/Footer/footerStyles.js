@@ -23,6 +23,7 @@ export const FooterTop = styled.div`
     float: right;
     position: relative;
     right:10px;
+    transform: translateY(4px)
 
     }
     img{

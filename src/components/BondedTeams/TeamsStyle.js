@@ -27,13 +27,20 @@ export const TeamsWrapper = styled.div`
 `
 export const BondedTeams = styled.div`
     display: flex;
-    width:90%;
+    width: 90%;
     justify-content: space-around;
 
     img{
         height: clamp(22px, 4vw, 80px)
     }
 
+    @media screen and (max-width:385px){
+        width: 90%;
+
+        img{
+            height: 18px;
+        }
+    }
     @media screen and (max-width:285px){
         width: 90%;
 

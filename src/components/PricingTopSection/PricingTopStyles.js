@@ -12,10 +12,22 @@ export const PricingTopWrapper = styled.div`
   img{
     height: 120%;
   }
+
+  @media screen and (max-width: 740px){
+    margin-bottom:-2px;
+    flex-direction: column;
+
+    img{
+    height: 120%;
+    width: 120%;
+  }
+
+  }
 `
 export const PricingTopLeft = styled.div`
-  width: 40%;
-  padding-left: 2.5rem;
+  margin: 17px;
+  width: 100%;
+  padding-left: 0.5rem;
 
   h1{
     font-size: clamp(15px, 2.5vw, 45px);
@@ -35,5 +47,9 @@ export const PricingTopLeft = styled.div`
     color: white;
     cursor: pointer;
     font-size: clamp(10px, 2vw, 12px);
+  }
+
+  @media screen and (max-width: 740px){
+    text-align: center;
   }
 `
