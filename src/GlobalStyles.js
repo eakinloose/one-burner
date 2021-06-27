@@ -11,8 +11,6 @@ const GlobalStyles = createGlobalStyle`
 
     html, body{
         overflow-x: hidden;
-        /* width: 80%; */
-        margin: auto;
         /* background: red; */
     }
 

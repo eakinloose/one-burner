@@ -1,7 +1,7 @@
 import styled, {css} from 'styled-components/macro'
 
 const SecContent  = css`
-  width: 89%;
+  width: 80%;
   display: flex;
   margin: auto;
   justify-content: space-between;
@@ -10,7 +10,7 @@ const SecContent  = css`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 7px;
+    width: 40%;
   }
   h2{
     margin-bottom: 20px;
@@ -25,20 +25,18 @@ const SecContent  = css`
 
   img{
     width: 45%;
-    object-fit: cover;
   }
 `
 export const SecOneContent  = styled.div`
   ${SecContent}
-
 `
 export const SectionTwoContent  = styled.div`
   ${SecContent}
-  margin-top: 70px;
+  margin-top: 150px;
 `
 export const SectionThreeContent  = styled.div`
   ${SecContent}
-  margin-top: 60px;
+  margin-top: 100px;
 
 `
 export const SectionFourContent  = styled.div`
@@ -48,24 +46,22 @@ export const SectionFourContent  = styled.div`
 `
 export const SectionFiveContent  = styled.div`
   ${SecContent}
-  margin-top: 70px;
+  margin-top: 100px;
 
 `
 export const SectionSixContent  = styled.div`
   ${SecContent}
-  margin-top: 70px;
+  margin-top: 100px;
 
 `
 export const Head = styled.div`
-  width: 70%;
+  width: 100%;
   text-align:  center;
-  margin: auto;
 
   h3{
       margin: 50px 0px;
       text-align: center;
       font-weight: lighter;
-      font-size: 17px;
     }
 `
 
@@ -88,12 +84,6 @@ export const LastSection = styled.div`
   }
   h2, p{
     padding-bottom: 20px;
-  }
-  p{
-    font-size: 13px;
-  }
-  h2{
-    font-size: 17px;
   }
 
 `

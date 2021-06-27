@@ -22,8 +22,8 @@ export const menuDataThree =[
 export const pricingNavs =[
     {title:"CRM & Sales", link:""},
     {title:"Human Resources", link:""},
+    {title:"Marketing", link:""},
     {title:"Remote Work", link:""},
     {title:"Project Management", link:""},
-    {title:"Social Media", link:""},
-    {title:"Marketing", link:""}
+    {title:"Social Media", link:""}
 ]

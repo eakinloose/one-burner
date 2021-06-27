@@ -3,7 +3,6 @@ import GlobalStyles from './GlobalStyles';
 import {Route} from 'react-router-dom';
 import Home from './pages/Home';
 import pricing from './pages/pricing';
-import enterprise from './pages/enterprise'
 import Navbar from './components/Navbar/Navbar';
 import { useState } from 'react';
 import Dropdown from './components/dropDown/Dropdown';
@@ -35,7 +34,6 @@ function App() {
       <ProdSection Switch={Switch} isClicked={isClicked}/>
       <Route exact path="/" component={Home}/>
       <Route exact path="/pricing" component={pricing}/>
-      <Route exact path="/enterprise" component={enterprise}/>
     </>
   );
 }
