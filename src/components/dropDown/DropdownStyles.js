@@ -6,11 +6,10 @@ export const DropdownContainer =  styled.div`
   @media screen and (max-width: 769px){
     background:  white;
     display: ${({isOpen}) => (isOpen? 'block' : 'none')};
-    animation: fade-in 0.3s ease-in-out;
-    width: 50%;
+    animation: fade-in 0.5s ease-in-out;
+    width: 60%;
     right: 0;
     position: absolute;
-    border-radius: 0px 0px 0px 20px;
     z-index:50;
 
     @keyframes fade-in {
@@ -26,11 +25,11 @@ export const DropdownContainer =  styled.div`
 export const DropdownLinks = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
 
   p{
     display: block;
-    align-self: flex-end;
+    /* align-self: flex-end; */
     padding: 20px;
     color: #462686;
     font-size: 13px;
@@ -41,11 +40,11 @@ export const DropdownLinks = styled.div`
 export const DropdownLinksThree = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
 
   p{
     display: block;
-    align-self: flex-end;
+    /* align-self: flex-end; */
     padding: 20px;
     color: #462686;
     font-size: 13px;
@@ -65,7 +64,7 @@ display: none;
 
 @media screen and (max-width: 769px){
   width: 100%;
-  height: 300vh;
+  height: 400vh;
   background: rgba(0, 0, 0, 0.8);
   display: ${({isOpen}) => (isOpen? 'block' : 'none')};
   position: absolute;

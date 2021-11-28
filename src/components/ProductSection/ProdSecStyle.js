@@ -39,6 +39,7 @@ export const ProductSection = styled.div`
     @media screen and (max-width: 770px){
         grid-template-columns: repeat(2, 1fr);
         grid-row-gap: 3rem;
+        padding: 1rem;
     }
 
 `

@@ -5,22 +5,17 @@ import{
     menuDataThree
 } from '../../data/NavLinks'
 import{
-    Logo,
     DropdownContainer,
     DropdownLinks,
     DropdownLinksThree,
     BackDrop
 } from './DropdownStyles'
-import logoImg from '../../image 2/logo.png'
 
 const Dropdown = ({isOpen, toggle, Switch}) => {
     return (
         <>
         <DropdownContainer onClick={toggle} isOpen={isOpen}>
             <DropdownLinks>
-                <Logo >
-                    <img src={logoImg} alt="logoImg"/>
-                </Logo>
                 <p onClick={Switch}>Product</p>
                 {menuData.map((item, index)=>{
                 return(

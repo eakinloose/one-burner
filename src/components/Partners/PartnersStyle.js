@@ -19,11 +19,13 @@ export const PartnersSection = styled.div`
 
     }
     @media screen and (max-width:600px){
-        grid-template-columns: repeat(6, 1fr);
+        width: 100%;
+        grid-template-columns: repeat(8, 1fr);
+        margin: -30px auto 10px;
 
         img{
-            height: 30px;
-            margin-bottom: 2rem;
+            height: 26px;
+            margin-bottom: 1.5rem;
         }
     }
 `
